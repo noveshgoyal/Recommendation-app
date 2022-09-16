@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Varela+Round&display=swap");
+body {
+  background-size: cover;
+}
+
+.App {
+  filter: blur(px);
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Varela Round", sans-serif;
+}
+#rating {
+  float: right;
+  font-size: large;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 19px;
+  border-radius: 8px;
+  border: 1.2px solid #171717;
+  margin: 8px;
+  font-size: 15px;
+  background-color: #6eaadf;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+button:hover {
+  box-shadow: 2px 2px 2px black;
+  transition: 0.25s;
+}
+
+button:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 5px 0;
+}
+
+li {
+  list-style: none;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 10px 20px;
+  margin: 0.5rem 3rem;
+  width: 90%;
+  box-shadow: 0 0 5px 0;
+  backdrop-filter: blur(9px);
+}
+
+#placeName {
+  padding: 0.5rem 0rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#placeDescription,
+#sightSeen,
+#placeRating {
+  padding: 0.5rem;
+}
